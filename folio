@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Портфолио Фуллстек Разработчика</title>
+</head>
+<body>
+    <header class="bg-primary text-white text-center p-5">
+        <h1>Привет! Я [Твое Имя]</h1>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link text-white" href="#about">О себе</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#projects">Проекты</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="p-5">
+        <h2>О себе</h2>
+        <p>Я фуллстек разработчик с опытом работы в HTML, CSS, JavaScript, React, Flask и SQLite.</p>
+    </section>
+
+    <section id="projects" class="p-5">
+        <h2>Проекты</h2>
+        <!-- Проекты -->
+        <div class="project">
+            <h3>Проект 1</h3>
+            <p>Описание проекта с использованием технологий.</p>
+            <a href="https://github.com/your-repo" target="_blank">Ссылка на GitHub</a>
+        </div>
+        <!-- Добавь больше проектов -->
+    </section>
+    
+    <section id="contact" class="p-5">
+        <h2>Контакты</h2>
+        <p>Email: <a href="mailto:ваш_емейл@пример.com">ваш_емейл@пример.com</a></p>
+    </section>
+
+    <footer class="text-center p-3 bg-light">
+        <p>&copy; 2024 [Твое Имя]</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
